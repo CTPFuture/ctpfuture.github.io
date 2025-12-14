@@ -34,3 +34,31 @@ a:hover { opacity: 0.85; }
 .masthead a:hover {
   color: var(--ctp-gold);
 }
+/* ===== Fix washed-out header text ===== */
+.masthead,
+.masthead * {
+  opacity: 1 !important;
+}
+
+.masthead,
+.masthead a,
+.masthead__menu-item a,
+.greedy-nav a,
+.site-title,
+.site-subtitle {
+  color: #ffffff !important;
+}
+
+/* Hover / active state */
+.masthead a:hover,
+.masthead__menu-item a:hover,
+.greedy-nav a:hover {
+  color: var(--ctp-gold) !important;
+}
+
+/* Mobile menu toggle (hamburger) */
+.greedy-nav__toggle,
+.greedy-nav__toggle .navicon,
+.greedy-nav__toggle .navicon:before,
+.greedy-nav__toggle .navicon:after {
+  background: #ffffff !importan
