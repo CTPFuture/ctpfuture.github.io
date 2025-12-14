@@ -1,98 +1,35 @@
 ---
-# Only the triple-dashes above are required by Jekyll.
+# Required front matter for Jekyll
 ---
 
-/* Import the theme styles */
 @import "minimal-mistakes";
 
-/* ===== Brand tokens (edit these) ===== */
-:root{
-  --ctp-gold: #C8A24A;   /* replace if you have your exact gold */
+/* ===== Brand tokens ===== */
+:root {
+  --ctp-gold: #C8A24A;
   --ctp-charcoal: #222222;
 }
 
-/* ===== Small, high-impact tweaks ===== */
-
-/* Links / accents */
-a { color: var(--ctp-gold); }
-a:hover { opacity: 0.85; }
-
-/* Buttons (if/when you add them) */
-.btn, .btn--primary {
-  background-color: var(--ctp-gold);
-  border-color: var(--ctp-gold);
-  color: #ffffff;
-}
-
-/* Header / masthead contrast */
-.masthead {
-  background: var(--ctp-charcoal);
-}
-.masthead__inner-wrap, .masthead a {
-  color: #ffffff;
-}
-.masthead a:hover {
+/* ===== Global links ===== */
+a {
   color: var(--ctp-gold);
 }
-/* ===== Fix washed-out header text ===== */
-.masthead,
-.masthead * {
-  opacity: 1 !important;
+a:hover {
+  opacity: 0.85;
 }
 
-.masthead,
-.masthead a,
-.masthead__menu-item a,
-.greedy-nav a,
-.site-title,
-.site-subtitle {
-  color: #ffffff !important;
-}
+/* ===== Header / navigation (FIXED) ===== */
 
-/* Hover / active state */
-.masthead a:hover,
-.masthead__menu-item a:hover,
-.greedy-nav a:hover {
-  color: var(--ctp-gold) !important;
-}
-
-/* Mobile menu toggle (hamburger) */
-.greedy-nav__toggle,
-.greedy-nav__toggle .navicon,
-.greedy-nav__toggle .navicon:before,
-.greedy-nav__toggle .navicon:after {
-  background: #ffffff !importan
-
-/* ===== Header readability fix (white header needs dark text) ===== */
-
-/* Keep the header background white (matches what you're seeing) */
+/* White header */
 .masthead,
 .greedy-nav {
   background: #ffffff !important;
 }
 
-/* Default (non-hover) header text should be dark */
+/* Default header text */
 .masthead a,
 .masthead__menu-item a,
 .greedy-nav a,
 .site-title,
-.site-subtitle {
-  color: var(--ctp-charcoal) !important;
-  opacity: 1 !important;
-}
-
-/* Hover state stays gold */
-.masthead a:hover,
-.masthead__menu-item a:hover,
-.greedy-nav a:hover {
-  color: var(--ctp-gold) !important;
-}
-
-/* Mobile menu icon (hamburger) */
-.greedy-nav__toggle,
-.greedy-nav__toggle .navicon,
-.greedy-nav__toggle .navicon:before,
-.greedy-nav__toggle .navicon:after {
-  background: var(--ctp-charcoal) !important;
-}
+.site-
 
