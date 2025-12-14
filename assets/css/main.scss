@@ -1,0 +1,36 @@
+---
+# Only the triple-dashes above are required by Jekyll.
+---
+
+/* Import the theme styles */
+@import "minimal-mistakes";
+
+/* ===== Brand tokens (edit these) ===== */
+:root{
+  --ctp-gold: #C8A24A;   /* replace if you have your exact gold */
+  --ctp-charcoal: #222222;
+}
+
+/* ===== Small, high-impact tweaks ===== */
+
+/* Links / accents */
+a { color: var(--ctp-gold); }
+a:hover { opacity: 0.85; }
+
+/* Buttons (if/when you add them) */
+.btn, .btn--primary {
+  background-color: var(--ctp-gold);
+  border-color: var(--ctp-gold);
+  color: #ffffff;
+}
+
+/* Header / masthead contrast */
+.masthead {
+  background: var(--ctp-charcoal);
+}
+.masthead__inner-wrap, .masthead a {
+  color: #ffffff;
+}
+.masthead a:hover {
+  color: var(--ctp-gold);
+}
