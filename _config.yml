@@ -1,0 +1,10 @@
+title: "CTP Futureproof Inc."
+description: "Digital transformation advisory | IT strategy | Microsoft platform delivery"
+url: "https://ctpfuture.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
+
+plugins:
+  - jekyll-include-cache
