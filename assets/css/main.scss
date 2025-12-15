@@ -20,16 +20,51 @@ a:hover {
 
 /* ===== Header / navigation (FIXED) ===== */
 
-/* White header */
+/* Keep header bright */
+.site-header,
 .masthead,
-.greedy-nav {
+.greedy-nav,
+.greedy-nav .visible-links,
+.masthead .site-title {
   background: #ffffff !important;
 }
 
 /* Default header text */
 .masthead a,
+.masthead .greedy-nav a,
 .masthead__menu-item a,
-.greedy-nav a,
-.site-title,
-.site-
+.masthead .site-title,
+.masthead .site-title a,
+.greedy-nav .visible-links > li > a,
+.greedy-nav .hidden-links a,
+.greedy-nav__toggle,
+.greedy-nav__toggle .navicon,
+.greedy-nav__toggle .navicon:before,
+.greedy-nav__toggle .navicon:after {
+  color: var(--ctp-charcoal) !important;
+  fill: var(--ctp-charcoal) !important;
+  font-weight: 600;
+}
 
+/* Hover + active state */
+.masthead .greedy-nav a:hover,
+.greedy-nav__toggle:hover,
+.masthead__menu-item a:hover,
+.site-title a:hover,
+.greedy-nav .visible-links > li > a:focus,
+.greedy-nav .visible-links > li > a:active,
+.greedy-nav .hidden-links a:hover {
+  color: var(--ctp-gold) !important;
+  fill: var(--ctp-gold) !important;
+}
+
+/* Button accents */
+.btn,
+.btn:visited {
+  background-color: var(--ctp-gold);
+  border-color: var(--ctp-gold);
+  color: #fff !important;
+}
+.btn:hover {
+  filter: brightness(0.95);
+}

@@ -20,4 +20,4 @@ I help leaders turn strategy into execution across technology, process, and gove
 ### Next step
 Email me to set up a short intro call and I’ll respond with a few times.
 
-**Contact:** go to the Contact page
+[Contact me to get started](/contact/){: .btn .btn--primary }
