@@ -1,11 +1,17 @@
 ---
-title: "CTP Futureproof Inc."
+title: "Canadian Technology Professionals"
+subtitle: "Delivering digital transformation you can actually execute"
 ---
 
-## Digital transformation that ships
-I help leaders turn strategy into execution across technology, process, and governance—without overcomplicating delivery.
+<div class="hero-tagline">
+<p class="hero-tagline__primary">Canadian Technology Professionals</p>
+<p class="hero-tagline__secondary">Delivering digital transformation you can actually execute</p>
+</div>
 
-### What I do
+## Digital transformation that ships
+We help leaders turn strategy into execution across technology, process, and governance—without overcomplicating delivery.
+
+### What we do
 - Digital and IT strategy with execution-ready roadmaps
 - Microsoft platform enablement (M365 / Power Platform)
 - ERP and finance transformation (process, controls, operating rhythm)
@@ -18,6 +24,8 @@ I help leaders turn strategy into execution across technology, process, and gove
 - **Project delivery** (defined scope and outcomes)
 
 ### Next step
-Email me to set up a short intro call and I’ll respond with a few times.
+Email us to set up a short intro call and we’ll respond with a few times.
 
-**Contact:** go to the Contact page
+[Contact us to get started](/contact/){: .btn .btn--primary }
+
+<div class="page-version" aria-label="Homepage version">V1.12</div>
