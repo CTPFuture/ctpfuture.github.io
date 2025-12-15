@@ -3,7 +3,7 @@ title: "Approach"
 permalink: /approach/
 ---
 
-## How I work
+## How we work
 1. **Diagnose** — clarify outcomes, constraints, and risks through focused interviews and artifact review
 2. **Design** — define target state, roadmap, governance, and metrics that your team can own
 3. **Deliver** — establish delivery cadence, decisions, and controls with transparent reporting
