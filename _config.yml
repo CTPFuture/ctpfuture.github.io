@@ -1,19 +1,50 @@
-title: "CTP Futureproof Inc."
+title: "CTP Futureproof"
 description: "Digital transformation advisory | IT strategy | Microsoft platform delivery"
 url: "https://ctpfuture.github.io"
 baseurl: ""
 
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air"
+locale: en-US
+title_separator: "|"
 
 plugins:
   - jekyll-include-cache
+  - jekyll-remote-theme
+
 header_pages: []
+
 defaults:
   - scope:
       path: ""
     values:
       layout: single
-name: "CTP Futureproof Inc."
+      author: "Tara Parker"
+      excerpt_separator: "<!--more-->"
+
+name: "CTP Futureproof"
 logo: /assets/images/ctp-logo2.png
 
+author:
+  name: "Tara Parker"
+  bio: "Technology and finance transformation leader focused on shipping outcomes."
+  avatar: /assets/images/ctp-logo2.png
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:tparker@ctpfutureproof.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/taraparker"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/ctpfuture"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/taraparker"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:tparker@ctpfutureproof.com"
