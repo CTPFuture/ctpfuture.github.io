@@ -10,6 +10,7 @@ title_separator: "|"
 
 plugins:
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 header_pages: []
 
@@ -21,7 +22,7 @@ defaults:
       author: "Tara Parker"
       excerpt_separator: "<!--more-->"
 
-name: "CTP Futureproof Inc."
+name: "CTP Futureproof"
 logo: /assets/images/ctp-logo2.png
 
 author:

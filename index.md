@@ -28,4 +28,4 @@ Email us to set up a short intro call and we’ll respond with a few times.
 
 [Contact us to get started](/contact/){: .btn .btn--primary }
 
-<div class="page-version" aria-label="Homepage version">V1.12</div>
+<div class="page-version" aria-label="Homepage version">V1.13</div>
