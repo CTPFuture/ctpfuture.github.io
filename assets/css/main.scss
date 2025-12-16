@@ -23,7 +23,7 @@ body {
 main { margin-top: 1rem; }
 
 .page {
-  width: min(1180px, calc(100% - 2rem));
+  width: clamp(360px, 92vw, 1320px);
   margin: 1.5rem auto 3rem;
 }
 
