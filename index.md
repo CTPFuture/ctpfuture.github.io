@@ -1,11 +1,11 @@
 ---
-title: "Delivering digital transformation you can actually execute"
+title: "Canadian Technology Professionals"
 subtitle: ""
 ---
 
 <div class="hero-tagline">
-<p class="hero-tagline__primary">Canadian Technology Professionals</p>
-<p class="hero-tagline__secondary">Delivering digital transformation you can actually execute</p>
+<p class="hero-tagline__primary">Delivering digital transformation you can actually execute</p>
+<p class="hero-tagline__secondary"></p>
 </div>
 
 ## Digital transformation that ships
