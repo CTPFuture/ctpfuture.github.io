@@ -30,7 +30,7 @@ main { margin-top: 1rem; }
 .page__content {
   background: #ffffff;
   border-radius: 18px;
-  padding: clamp(1.6rem, 2vw + 1rem, 3rem);
+  padding: 2.5rem 3rem;
   box-shadow: 0 18px 55px -32px rgba(17, 24, 39, 0.45);
   border: 1px solid rgba(0, 0, 0, 0.03);
 }
@@ -54,16 +54,28 @@ main { margin-top: 1rem; }
 
 .hero-tagline__primary {
   margin: 0;
-  font-size: clamp(1.3rem, 1.2rem + 1vw, 1.75rem);
+  font-size: 1.6rem;
   font-weight: 700;
   color: #111827;
 }
 
 .hero-tagline__secondary {
   margin: 0.35rem 0 0;
-  font-size: clamp(1rem, 0.95rem + 0.35vw, 1.15rem);
+  font-size: 1.1rem;
   color: #4b5563;
 }
+
+/* Optional mobile adjustment without clamp */
+@media (max-width: 768px) {
+  .hero-tagline__primary {
+    font-size: 1.4rem;
+  }
+
+  .hero-tagline__secondary {
+    font-size: 1rem;
+  }
+}
+
 
 .page__content h2 { margin-top: 0.5rem; }
 
@@ -213,11 +225,10 @@ a:hover { opacity: 0.85; }
 @media (min-width: 960px) {
   .page {
     margin-top: 2.25rem;
-    width: clamp(360px, 88vw, 1380px);
   }
 
   .page__content {
-    padding: 2.5rem 3.25rem;
+    padding: 2.5rem 3rem;
   }
 
   .hero-tagline {
