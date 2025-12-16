@@ -1,10 +1,11 @@
 ---
-title: "Delivering digital transformation that actually lands — and stays landed"
-subtitle: ""
+title: "Canadian Technology Professionals"
+subtitle: "Delivering digital transformation you can actually execute"
 ---
 
 <div class="hero-tagline">
-<p class="hero-tagline__primary">Delivering digital transformation that actually lands — and stays landed</p>
+<p class="hero-tagline__primary">Canadian Technology Professionals</p>
+<p class="hero-tagline__secondary">Delivering digital transformation you can actually execute</p>
 </div>
 
 ## Digital transformation that ships
@@ -27,4 +28,4 @@ Email us to set up a short intro call and we’ll respond with a few times.
 
 [Contact us to get started](/contact/){: .btn .btn--primary }
 
-<div class="page-version" aria-label="Homepage version">V1.14</div>
+<div class="page-version" aria-label="Homepage version">V1.13</div>

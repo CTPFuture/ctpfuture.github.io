@@ -213,11 +213,10 @@ a:hover { opacity: 0.85; }
 @media (min-width: 960px) {
   .page {
     margin-top: 2.25rem;
-    width: clamp(360px, 88vw, 1380px);
   }
 
   .page__content {
-    padding: 2.5rem 3.25rem;
+    padding: 2.5rem 3rem;
   }
 
   .hero-tagline {
