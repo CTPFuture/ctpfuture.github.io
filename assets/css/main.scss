@@ -30,7 +30,7 @@ main { margin-top: 1rem; }
 .page__content {
   background: #ffffff;
   border-radius: 18px;
-  padding: clamp(1.6rem, 2vw + 1rem, 3rem);
+  padding: clamp(#{1.6rem}, #{2vw + 1rem}, #{3rem});
   box-shadow: 0 18px 55px -32px rgba(17, 24, 39, 0.45);
   border: 1px solid rgba(0, 0, 0, 0.03);
 }
