@@ -1,6 +1,6 @@
 ---
-title: "Canadian Technology Professionals"
-subtitle: "Delivering digital transformation you can actually execute"
+title: "Delivering digital transformation you can actually execute"
+subtitle: ""
 ---
 
 <div class="hero-tagline">
