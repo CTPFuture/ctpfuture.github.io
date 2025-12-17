@@ -359,6 +359,10 @@ a:hover { opacity: 0.85; }
 /* Scroll snap (bold) */
 html { scroll-behavior: smooth; }
 
+@media (min-width: 1100px) {
+  .hp-wrap { scroll-snap-type: y proximity; }
+  .hp-wrap > section { scroll-snap-align: start; }
+}
 /* Responsive */
 @media (max-width: 900px) {
   .hp__grid { grid-template-columns: 1fr; }
