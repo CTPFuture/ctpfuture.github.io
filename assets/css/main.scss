@@ -359,13 +359,14 @@ a:hover { opacity: 0.85; }
 /* Scroll snap (bold) */
 html { scroll-behavior: smooth; }
 
-.hp-wrap {
+/* Scroll snap (bold) - apply to the page scroll container */
+html, body {
   scroll-snap-type: y mandatory;
+  scroll-padding-top: 88px; /* accounts for header */
 }
 
 .hp-wrap > section {
   scroll-snap-align: start;
-  scroll-margin-top: 88px;
 }
 
 /* Responsive */
